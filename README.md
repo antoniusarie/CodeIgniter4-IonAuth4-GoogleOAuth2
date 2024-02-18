@@ -12,7 +12,7 @@ CodeIgniter 4 with Ion Auth 4 &amp; Google OAuth authentication
 * MySQL
 * Composer
 
-INSTALLATION
+## INSTALLATION
 1. Install CodeIgniter 4 using composer
 ```
 $ composer create-project codeigniter4/appstarter <app-name>
@@ -20,11 +20,7 @@ $ composer create-project codeigniter4/appstarter <app-name>
 2. Install Ion Auth 4 using composer
 ```
 $ composer config minimum-stability dev
-```
-```
 $ composer config repositories.ionAuth vcs git@github.com:benedmunds/CodeIgniter-Ion-Auth.git
-```
-```
 $ composer require benedmunds/codeigniter-ion-auth:4.x-dev   
 ```
 or read the manuals:
@@ -40,10 +36,10 @@ $ composer require google/apiclient:^2.12
 5. Replace entire CodeIgniter `project folder (app, public)` 
 6. Done
 
-Changelog:
-- added Google OAuth2 credential in Config/App
-- added custom Libraries to initialized Google OAuth2
-- breakdown Bootstrap 5 templates into CI4 - Layouts
+## Changelog:
+* added Google OAuth2 credential in Config/App
+* added custom Libraries to initialized Google OAuth2
+* breakdown Bootstrap 5 templates into CI4 - Layouts
 
 ---
 @antonius.arie
