@@ -41,6 +41,3 @@ https://github.com/benedmunds/CodeIgniter-Ion-Auth/blob/4/INSTALLING.md
 * added custom Libraries to initialized Google OAuth2
 * breakdown Bootstrap 5 templates into CI4 - Layouts
 
----
-@antonius.arie
-HappyCoding
